@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationExerciseSuite" verbose="1">
+    <!-- 🔹 Challenge 6: Report Listener -->
+    <listeners>
+        <listener class-name="utils.ExtentListener"/>
+    </listeners>
+    <test name="All Challenges">
+        <classes>
+            <class name="tests.Challenge1_LoginTest"/>
+            <class name="tests.Challenge2_SignupTest"/>
+            <class name="tests.Challenge3_ProductsTest"/>
+            <class name="tests.Challenge4_CartTest"/>
+            <class name="tests.Challenge5_NavigationTest"/>
+        </classes>
+    </test>
+</suite>
